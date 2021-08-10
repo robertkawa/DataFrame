@@ -11,7 +11,7 @@ namespace DataFrameComponent
             
             //var dateFrameFromExcel = DataFrameCreator.Create(@"C:\test\test.xlsx", DataFrameSourceType.Excel);
             
-            //var dateFrameFromJson = DataFrameCreator.Create(@"C:\test\test.xlsx", DataFrameSourceType.Json);
+            //var dateFrameFromJson = DataFrameCreator.Create(@"C:\test\test.json", DataFrameSourceType.Json);
         }
     }
 }

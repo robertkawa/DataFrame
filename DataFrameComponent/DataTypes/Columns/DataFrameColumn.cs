@@ -30,7 +30,7 @@ namespace DataFrameComponent.DataTypes.Columns
 
         public virtual double Median() => throw new NotImplementedException();
         
-        public virtual long CountUnique() => throw new NotImplementedException();
+        public virtual long UniqueCount() => throw new NotImplementedException();
         
         public virtual double Sum() => throw new NotImplementedException();
         
