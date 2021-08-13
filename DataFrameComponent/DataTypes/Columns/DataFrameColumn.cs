@@ -38,6 +38,6 @@ namespace DataFrameComponent.DataTypes.Columns
         
         protected abstract object GetValue(long rowIndex);
         
-        protected abstract void SetValue(long rowIndex, object length);
+        protected abstract void SetValue(long rowIndex, object value);
     }
 }

@@ -15,7 +15,7 @@ namespace DataFrameComponent.DataTypes.Columns
             throw new NotImplementedException();
         }
 
-        protected override void SetValue(long rowIndex, object length)
+        protected override void SetValue(long rowIndex, object value)
         {
             throw new NotImplementedException();
         }
