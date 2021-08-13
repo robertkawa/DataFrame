@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace DataFrameComponent.DataTypes.Columns
 {
-    public abstract class DataFrameColumn : IEnumerable
+    public abstract class DataFrameColumn
     {
         private long _length;
         
@@ -14,11 +14,6 @@ namespace DataFrameComponent.DataTypes.Columns
         }
         
         public Type DataType { get; }
-        
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
         
         public object this[long rowIndex]
         {
