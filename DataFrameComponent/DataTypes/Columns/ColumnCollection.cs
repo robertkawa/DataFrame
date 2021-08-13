@@ -35,7 +35,7 @@ namespace DataFrameComponent.DataTypes.Columns
             
             return dataFrameColumn is DecimalDataFrameColumn decimalDataFrameColumn
                 ? decimalDataFrameColumn
-                : throw new ArgumentException(string.Format(Errors.BadColumnCast, dataFrameColumn.DataType, typeof(byte)));
+                : throw new ArgumentException(string.Format(Errors.BadColumnCast, dataFrameColumn.DataType, typeof(decimal)));
         }
         
         public DataFrameColumn this[string columnName]
